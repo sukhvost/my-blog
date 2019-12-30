@@ -1,0 +1,161 @@
+.wrap_page {
+    height: 100%;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.standart_width {
+    width: 20%;
+}
+
+.span_color_style {
+    color: #5b9386;
+}
+
+
+/* block avatar */
+
+.size_content_avatar {
+    width: 8.125rem;
+    height: 8.125rem;
+}
+
+.size_footer_avatar {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.autor_avatar {
+    background: url('../img/logo-page.jpg') center/contain;
+    border-radius: 50%;
+}
+
+
+/* wrap content */
+
+.wrap_content {
+    width: 80%;
+    height: 100%;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 3.375rem auto;
+}
+
+.wrap_content_width-main {
+    flex: 1 0;
+    background: #fff;
+    color: #000;
+}
+
+.wrap_content a {
+    color: #000;
+}
+
+
+/* block article */
+
+.wrap_content .active_item {
+    color: #5b9386;
+}
+
+
+/* block namber pages*/
+
+.active_page {
+    font-size: 0.9em;
+    color: #5b9386;
+}
+
+
+/* left side */
+
+.left_side {
+    width: 12.5rem;
+}
+
+
+/* main content */
+
+.main {
+    width: 36.5625rem;
+}
+
+
+/* right side */
+
+.right_side {
+    width: 18.75rem;
+}
+
+.block_preview {
+    width: 100%;
+    height: 17.5rem;
+}
+
+.size_preview {
+    width: 100%;
+    height: 17.5rem;
+}
+
+.wrap_preview_1 {
+    background: url('../img/block-1.png') no-repeat center/contain;
+}
+
+.wrap_preview_2 {
+    background: url('../img/block-2.png') no-repeat center/contain;
+}
+
+
+/* footer */
+
+.wrap_content_width-footer {
+    background: #000;
+    color: #fff;
+}
+
+.wrap_footer {
+    width: 80%;
+    height: 100%;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap_footer a {
+    color: #fff;
+}
+
+
+/* footer menu */
+
+.footer_menu {
+    width: 50%;
+}
+
+.block_button {
+    width: 50%;
+}
