@@ -160,6 +160,46 @@
     padding-top: 1.25rem;
 }
 
+.nav_categories a {
+    display: block;
+    padding: .7rem 0;
+    transition: ease .4s;
+}
+
+.nav_categories a:hover {
+    color: #5b9386;
+}
+
+.intro_categories_nav {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.intro_categories_nav::before {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 1px;
+    background: #5b9386;
+    position: absolute;
+    bottom: .3rem;
+    left: 0;
+}
+
+.intro_categories_nav::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 1px;
+    background: #5b9386;
+    position: absolute;
+    bottom: .3rem;
+    right: 0;
+}
+
 
 /* main content */
 
