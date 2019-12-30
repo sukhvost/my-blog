@@ -36,6 +36,10 @@
     color: #5b9386;
 }
 
+.upper {
+    text-transform: uppercase;
+}
+
 
 /* block avatar */
 
@@ -95,6 +99,65 @@
 
 .left_side {
     width: 12.5rem;
+}
+
+.block_autor_header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.autor_avatar_header {
+    margin: 0 auto;
+}
+
+.autor_avatar {
+    margin-bottom: 1rem;
+}
+
+.autor_name {
+    margin-bottom: .5em;
+}
+
+.description_intro {
+    line-height: 2em;
+    font-weight: 600;
+}
+
+.description_autor {
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 2.1rem;
+    position: relative;
+}
+
+.description_autor::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #5b9386;
+    position: absolute;
+    bottom: 0;
+}
+
+.nav_menu {
+    padding: 1.5rem 0;
+}
+
+.nav_menu a {
+    display: block;
+    padding: .7rem 0;
+    transition: ease .4s;
+}
+
+.nav_menu a:hover,
+.active {
+    background: #5b9386;
+    padding-left: 1.5rem;
+}
+
+.nav_categories {
+    padding-top: 1.25rem;
 }
 
 
