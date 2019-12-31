@@ -7,10 +7,72 @@
 /* FONT PATH
  * -------------------------- */
 
+
+/* fonts */
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasanssemibold.woff2') format('woff2'), url('fira/Firasanssemibold.woff') format('woff'), url('fira/Firasanssemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansmedium.woff2') format('woff2'), url('fira/Firasansmedium.woff') format('woff'), url('fira/Firasansmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasanslight.woff2') format('woff2'), url('fira/Firasanslight.woff') format('woff'), url('fira/Firasanslight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansbook.woff2') format('woff2'), url('fira/Firasansbook.woff') format('woff'), url('fira/Firasansbook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansregular.woff2') format('woff2'), url('fira/Firasansregular.woff') format('woff'), url('fira/Firasansregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansheavy.woff2') format('woff2'), url('fira/Firasansheavy.woff') format('woff'), url('fira/Firasansheavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansbold.woff2') format('woff2'), url('fira/Firasansbold.woff') format('woff'), url('fira/Firasansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fira/Firasansextrabold.woff2') format('woff2'), url('fira/Firasansextrabold.woff') format('woff'), url('fira/Firasansextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/* fontAwesome */
+
 @font-face {
     font-family: 'FontAwesome';
-    src: url('fontawesome-webfont.eot?v=4.7.0');
-    src: url('fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('fontawesome-webfont.woff?v=4.7.0') format('woff'), url('fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    src: url('awesome/fontawesome-webfont.eot?v=4.7.0');
+    src: url('awesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('awesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('awesome/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('awesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
