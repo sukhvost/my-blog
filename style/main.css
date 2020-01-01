@@ -624,3 +624,61 @@ footer a {
 .footer_block_link_img img {
     border-radius: 3px;
 }
+
+.wrap_form {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #00120e;
+    color: #fff;
+}
+
+form {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.wrap_close {
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.x_close {
+    width: 20px;
+    height: 20px;
+    background: #63f0d0;
+    text-align: center;
+    color: red;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.wrap_input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.wrap_input input {
+    margin-bottom: 1.5rem;
+}
+
+.wrap_submit {
+    padding-bottom: 3rem;
+}
+
+.wrap_submit input {
+    width: 11rem;
+    color: #000;
+    font-size: 1.1em;
+    background: #63f0d0;
+    padding: .9rem 1.25rem;
+    border: 1px solid #63f0d0;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+}
