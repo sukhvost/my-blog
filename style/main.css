@@ -421,6 +421,7 @@
 .block_link_img img {
     width: 100%;
     height: 100%;
+    border-radius: 3px;
 }
 
 .block_link_intro {
@@ -445,7 +446,7 @@
 /* footer */
 
 .wrap_content_width-footer {
-    background: #000;
+    background: #00120e;
     color: #fff;
 }
 
@@ -500,7 +501,7 @@
     width: 11rem;
     color: #5b9386;
     font-size: 1.1em;
-    background: #000;
+    background: #00120e;
     padding: .9rem 1.25rem;
     border: 1px solid #5b9386;
     border-radius: 3px;
@@ -511,4 +512,101 @@
 .btn:hover {
     background: #5b9386;
     color: #000;
+}
+
+.wrap_footer_content {
+    padding: 3rem 0;
+    position: relative;
+}
+
+.wrap_footer_content::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #5b9386;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_description_intro {
+    padding-top: .5rem;
+    line-height: 1.3em;
+}
+
+.block_copyright {
+    padding: 2rem 0
+}
+
+.footer_nav_categories a {
+    display: block;
+    color: #fff;
+    padding: .6rem 0;
+    transition: ease .4s;
+}
+
+.footer_nav_categories a:hover {
+    color: #03644e;
+}
+
+.footer_intro_categories,
+.footer_intro_updates,
+.contact_description {
+    letter-spacing: .1em;
+    padding-bottom: 1.55rem;
+}
+
+.contact__link {
+    margin-bottom: 1.875rem;
+}
+
+.contact__link a {
+    display: block;
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 1px solid #5b9386;
+    border-radius: 3px;
+    text-align: center;
+    transition: ease .4s;
+}
+
+.contact__link a:hover {
+    background: #5b9386;
+}
+
+.contact__link .fa:hover {
+    color: #00120e;
+}
+
+.contact__link .fa {
+    font-size: 2em;
+    padding: .3rem;
+}
+
+.intro__email {
+    margin-bottom: 1.5rem;
+}
+
+.footer_block_link_intro {
+    margin-left: 1rem;
+    padding: .2rem 0;
+}
+
+.footer_block_link_intro a {
+    font-size: .75em;
+    line-height: 1.2em;
+    height: 100%;
+}
+
+.footer_block_updates_link {
+    margin-bottom: 1rem;
+}
+
+.footer_updates_link {
+    font-size: .65em;
+    color: #404745;
+}
+
+.footer_block_link_img img {
+    border-radius: 3px;
 }
